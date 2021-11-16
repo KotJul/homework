@@ -1,0 +1,67 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+.container{
+  position: absolute;
+  top: 85px;
+  left: 75px;
+  width: 260px;
+  height: 372px;
+  background: #FFFFFF;
+
+  border-radius: 5px;
+  box-shadow: 5px 5px 17px rgba(0, 0, 0, 0.25);
+}
+.image{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 30px;
+  top: 18px;
+}
+.description-text{
+  position: absolute;
+  top: 243px;
+  left: 11px;
+  width: 238px;
+  height: 42px;
+}
+.text{
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+.description-price{
+  position: absolute;
+  top: 296px;
+  left: 11px;
+  width: 238px;
+  height: 20px;
+}
+.price{
+  font-weight: 700;
+}
+.button{
+  position: absolute;
+  left: 11px;
+  bottom: 11px;
+  width: 238px;
+  height: 34px;
+  background: #DC092E;
+  border-radius: 5px;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.34);
+}
+.button-text{
+  color: #FFFFFF;
+  text-align: center;
+}
