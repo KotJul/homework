@@ -2,13 +2,19 @@
   margin: 0px;
   padding: 0px;
 }
-
+a{
+  text-decoration: none;
+}
 body{
   position: relative;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 21px;
   color: #000000;
+}
+.main{
+  display: flex;
+  margin-left: 100px;
 }
 .container{
   position: absolute;
@@ -20,6 +26,11 @@ body{
 
   border-radius: 5px;
   box-shadow: 5px 5px 17px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s;
+}
+.container:hover{
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s;
 }
 .image{
   position: absolute;
@@ -53,15 +64,27 @@ body{
 }
 .button{
   position: absolute;
-  left: 11px;
   bottom: 11px;
   width: 238px;
   height: 34px;
+  left: 11px;
   background: #DC092E;
   border-radius: 5px;
-  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.34);
+  box-shadow: 2px 2px 7px 1px rgba(0, 0, 0, 0.34);
+  transition: all 0.3s;
+}
+.button:hover{
+  background: rgba(220, 9, 46, 0.85);
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.34);
+  transition: all 0.3s;
+}
+.button:active{
+  background: #CE072A;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.34);
 }
 .button-text{
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
   color: #FFFFFF;
-  text-align: center;
 }
