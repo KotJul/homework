@@ -52,7 +52,7 @@
   height: 150px;
   background-color: blue;
   position: absolute;
-  top: 661px;
+  bottom: 0px;
 }
 .yellow{
   width: 150px;
@@ -60,7 +60,7 @@
   background-color: yellow;
   position: absolute;
   left: 850px;
-  top: 661px;
+  bottom: 0px;/*задаст положении в низу, и при уменьшении экрана не будет смещаться*/
 }
 
 .red-2{
@@ -68,31 +68,31 @@
   height: 150px;
   background-color: red;
   position: absolute;
-  top: 661px;
+  bottom: 0px;
 }
 .green-2{
   width: 150px;
   height: 150px;
   background-color: green;
   position: absolute;
-  top: 661px;
-  right: 700px;
+  bottom: 0px;
+  left: 150px;
 }
 .blue-2{
   width: 150px;
   height: 150px;
   background-color: blue;
   position: absolute;
-  top: 661px;
-  right: 550px;
+  bottom: 0px;
+  left: 300px;
 }
 .yellow-2{
   width: 150px;
   height: 150px;
   background-color: yellow;
   position: absolute;
-  top: 661px;
-  right: 400px;
+  bottom: 0px;
+  left: 450px;
 }
 .red-3{
   width: 150px;
@@ -123,8 +123,7 @@
   height: 150px;
   background-color: blue;
   position: absolute;
-  bottom: 60px; 
-  bottom: 60px; 
+  bottom: 60px;  
 }
 .green-4{
   width: 150px;
